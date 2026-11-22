@@ -73,6 +73,9 @@ fig.update_layout(
 fig.update_layout(
     title = 'Energy Consumption Germany',
     scene = dict(
+        camera=dict(
+            eye=dict(x = 1.1, y = 1.1, z = 1.1)
+        ),
         aspectmode = "cube",
         xaxis = dict(
             title = "Date",
